@@ -1,0 +1,23 @@
+{
+  "name": "socialMediaTrending",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./index.js -d dist --source-maps --copy-files"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "scrape-youtube": "^0.2.0",
+    "tiktok-scraper": "^1.1.11"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-source-map-support": "^1.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
